@@ -38,11 +38,12 @@ body{
   padding: 30px 50px 0 0;
 }
 
-.nav > a{
+.nav a{
   color: #fff;
-  font-weight: 300;
+  font-weight: 200;
   text-decoration: none;
   margin-right: 10px;
+  font-size: 3.2vw;
 }
 
 .textos-header{
@@ -269,11 +270,16 @@ footer{
   color: #9e9797;
 }
 
+@media screen and (min-width: 900px){
+  .nav a {
+    font-size: 2vw;
+  }
+}
+
 @media screen and (max-width:900px){
   header{
       background-position: center;
   }
-
   .contenedor-sobre-nosotros{
       flex-direction: column;
       justify-content: center;
